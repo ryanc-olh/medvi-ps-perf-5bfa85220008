@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Medvi — Patient Support Performance</title>
+<style>
+  :root{--ink:#0b0b0b;--sec:#52514e;--mut:#898781;--card:#f5f4f1;--bd:#e1e0d9;--bds:#c3c2b7;--red:#b42318;--amb:#9a6a00;--grn:#127a3e;}
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.5;padding:20px;}
+  .wrap{max-width:900px;margin:0 auto;}
+  h1{font-size:21px;font-weight:600;margin:0;}
+  .sub{font-size:13px;color:var(--sec);margin-top:3px;}
+  .sec{font-size:16px;font-weight:600;color:var(--ink);border-bottom:2px solid var(--bds);padding-bottom:7px;margin:32px 0 14px;}
+  .grid{display:grid;gap:12px;}
+  .kpis{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));}
+  .card{background:var(--card);border-radius:10px;padding:14px 16px;}
+  .card .k{font-size:13px;color:var(--sec);}
+  .card .v{font-size:24px;font-weight:600;margin-top:2px;}
+  .card .n{font-size:12px;color:var(--mut);margin-top:2px;}
+  .red{color:var(--red);} .amb{color:var(--amb);} .grn{color:var(--grn);}
+  .lbl{font-size:13px;font-weight:600;color:var(--sec);margin:18px 0 8px;}
+  table{width:100%;border-collapse:collapse;font-size:12.5px;}
+  th{font-weight:600;color:var(--sec);text-align:right;padding:7px 5px;}
+  td{text-align:right;padding:7px 5px;border-top:1px solid var(--bd);}
+  th:first-child,td:first-child{text-align:left;}
+  tr.tot td{border-top:1.5px solid var(--bds);font-weight:600;}
+  .charts{grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;}
+  .cbox{position:relative;width:100%;height:230px;}
+  .leg{display:flex;gap:14px;font-size:12px;color:var(--sec);margin-bottom:6px;flex-wrap:wrap;}
+  .leg span{display:flex;align-items:center;gap:5px;}
+  .sw{width:11px;height:11px;border-radius:2px;display:inline-block;}
+  .note{font-size:12px;color:var(--mut);margin-top:8px;}
+  .picker{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 14px;padding:10px 14px;background:var(--card);border-radius:10px;}
+  .daysel{font-size:13px;padding:7px 34px 7px 12px;border:1px solid var(--bds);border-radius:6px;background:#fff;color:var(--ink);cursor:pointer;line-height:1.2;-webkit-appearance:none;appearance:none;background-image:url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2352514e' d='M2 4.5l4 4 4-4z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 12px center;}
+  .daysel:hover{border-color:#2a78d6;}
+  .daysel:focus{outline:none;border-color:#2a78d6;box-shadow:0 0 0 2px rgba(42,120,214,0.25);}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Medvi — Patient Support Performance</h1>
+  <div class="sub">Jul 9–15, 2026 · Voice · Email · Chat · Medvi · Central Time</div>
+
+  <div class="sec" style="border-color:var(--amb);">Today so far · Thu Jul 16 <span style="font-weight:400;color:var(--amb);font-size:13px;">— in progress</span></div>
+  <div class="note" style="margin:-8px 0 12px;">Preliminary — feeds refresh at different rates, so each tile shows its own "as of" time.</div>
+  <div class="grid kpis">
+    <div class="card"><div class="k">Voice — calls</div><div class="v">0</div><div class="n">as of ~2:30a CT</div></div>
+    <div class="card"><div class="k">Email — received</div><div class="v">0</div><div class="n">as of ~9a ET</div></div>
+    <div class="card"><div class="k">Email — open backlog</div><div class="v">487</div><div class="n">as of ~9a ET</div></div>
+    <div class="card"><div class="k">Chat — chats</div><div class="v">18</div><div class="n">as of ~2:30a CT</div></div>
+  </div>
+
+  <div class="sec">Voice <span style="font-weight:400;color:var(--mut);font-size:12px;">· updated through Thu Jul 16, ~2:30a CT</span></div>
+  <div class="grid kpis">
+    <div class="card"><div class="k">Answered ≤30s</div><div class="v red">79%</div><div class="n red">Target 80%</div></div>
+    <div class="card"><div class="k">Abandonment</div><div class="v red">6%</div><div class="n red">Target &lt;5%</div></div>
+    <div class="card"><div class="k">Avg Speed of Answer</div><div class="v red">51s</div><div class="n red">Target ≤30s · Jul 9–15 avg</div></div>
+    <div class="card"><div class="k">Inbound Volume</div><div class="v">3,190</div><div class="n">Jul 9–15</div></div>
+  </div>
+  <div class="lbl">By Day</div>
+  <table>
+    <thead><tr><th>Day</th><th>Inbound Volume</th><th>Answered</th><th>% Answered ≤30s</th><th>Avg Speed of Answer</th><th>Abandonment</th></tr></thead>
+    <tbody>
+      <tr><td>Thu 7/9</td><td>1,332</td><td>1,240</td><td class="amb">76%</td><td>57s</td><td class="amb">6.9%</td></tr>
+      <tr><td>Fri 7/10</td><td>1,248</td><td>1,153</td><td class="amb">74%</td><td>61s</td><td class="amb">7.6%</td></tr>
+      <tr><td>Sat 7/11</td><td>610</td><td>597</td><td class="grn">94%</td><td>16s</td><td>2.1%</td></tr>
+      <tr class="tot"><td>Jul 9–15</td><td>3,190</td><td>2,990</td><td class="amb">79%</td><td>51s</td><td class="amb">6%</td></tr>
+      <tr class="amb"><td>Thu 7/16*</td><td>0</td><td>0</td><td>0%</td><td>0s</td><td>0%</td></tr>
+    </tbody>
+  </table>
+  <div class="grid charts" style="margin-top:20px;">
+    <div><div class="lbl" style="margin-top:0;">Inbound Volume by Day</div><div class="cbox"><canvas id="c1"></canvas></div></div>
+    <div><div class="lbl" style="margin-top:0;">Answered ≤30s by Day (Target 80%)</div><div class="cbox"><canvas id="c2"></canvas></div></div>
+  </div>
+  <div class="note">* Thu Jul 16 (amber) is a partial day — data received so far (voice feed current to ~2:30a CT, email to ~9a ET); not comparable to the full days and excluded from the Jul 9–15 total.</div>
+
+  <div class="sec">Email <span style="font-weight:400;color:var(--mut);font-size:12px;">· updated through Thu Jul 16, ~9a ET</span></div>
+  <div class="grid kpis">
+    <div class="card"><div class="k">Received</div><div class="v">10</div><div class="n">Jul 9–15</div></div>
+    <div class="card"><div class="k">Resolved</div><div class="v">1,463</div><div class="n">Jul 9–15</div></div>
+    <div class="card"><div class="k">First Response ≤4hr</div><div class="v">71%</div><div class="n">of replied emails</div></div>
+    <div class="card"><div class="k">First Response ≤24hr</div><div class="v">87%</div><div class="n">of replied emails</div></div>
+  </div>
+  <div class="lbl">By Day</div>
+  <table>
+    <thead><tr><th>Day</th><th>Received</th><th>Resolved</th><th>Net</th></tr></thead>
+    <tbody>
+      <tr><td>Thu 7/9</td><td>0</td><td>561</td><td class="grn">-561</td></tr>
+      <tr><td>Fri 7/10</td><td>1</td><td>510</td><td class="grn">-509</td></tr>
+      <tr><td>Sat 7/11</td><td>0</td><td>392</td><td class="grn">-392</td></tr>
+      <tr><td>Sun 7/12</td><td>0</td><td>0</td><td>0</td></tr>
+      <tr><td>Mon 7/13</td><td>7</td><td>0</td><td>+7</td></tr>
+      <tr><td>Tue 7/14</td><td>2</td><td>0</td><td>+2</td></tr>
+      <tr><td>Wed 7/15</td><td>0</td><td>0</td><td>0</td></tr>
+      <tr class="tot"><td>Jul 9–15</td><td>10</td><td>1,463</td><td>-1453</td></tr>
+      <tr class="amb"><td>Thu 7/16*</td><td>0</td><td>0</td><td>+0</td></tr>
+    </tbody>
+  </table>
+  <div class="note">* Thu Jul 16 (amber) is partial — received/resolved so far (email feed to ~9a ET); excluded from the Jul 9–15 total.</div>
+
+  <div class="sec">Chat <span style="font-weight:400;color:var(--mut);font-size:12px;">· updated through Thu Jul 16, ~2:30a CT</span></div>
+  <div class="grid kpis">
+    <div class="card"><div class="k">Answered ≤30s</div><div class="v grn">92%</div><div class="n">Jul 9–15 · Target 90%</div></div>
+    <div class="card"><div class="k">Inbound Volume</div><div class="v">7328</div><div class="n">Jul 9–15 · ≤1240/day</div></div>
+  </div>
+  <div class="lbl">By Day</div>
+  <table>
+    <thead><tr><th>Day</th><th>Inbound Volume</th><th>% Answered ≤30s</th><th>Avg Speed of Answer</th></tr></thead>
+    <tbody>
+      <tr><td>Thu 7/9</td><td>1185</td><td class="grn">90%</td><td>26s</td></tr>
+      <tr><td>Fri 7/10</td><td>1023</td><td class="grn">97%</td><td>10s</td></tr>
+      <tr><td>Sat 7/11</td><td>704</td><td class="grn">99%</td><td>7s</td></tr>
+      <tr><td>Sun 7/12</td><td>740</td><td class="grn">100%</td><td>6s</td></tr>
+      <tr><td>Mon 7/13</td><td>1228</td><td class="grn">97%</td><td>12s</td></tr>
+      <tr><td>Tue 7/14</td><td>1208</td><td class="grn">92%</td><td>25s</td></tr>
+      <tr><td>Wed 7/15</td><td>1240</td><td class="amb">79%</td><td>48s</td></tr>
+      <tr class="tot"><td>Jul 9–15</td><td>7328</td><td class="grn">92%</td><td>~19s</td></tr>
+      <tr class="amb"><td>Thu 7/16*</td><td>18</td><td>100%</td><td>6s</td></tr>
+    </tbody>
+  </table>
+  <div class="note">* Thu Jul 16 (amber) is partial — chats so far (voice/chat feed to ~2:30a CT); excluded from the Jul 9–15 total.</div>
+
+  <div class="sec">Intraday by Hour</div>
+  <div class="picker">
+    <label for="daySel" style="font-size:14px;color:var(--sec);">Day</label>
+    <select id="daySel" class="daysel">
+      <option value="7/9">Thu · Jul 9</option>
+      <option value="7/10">Fri · Jul 10</option>
+      <option value="7/11">Sat · Jul 11</option>
+      <option value="7/12">Sun · Jul 12</option>
+      <option value="7/13">Mon · Jul 13</option>
+      <option value="7/14">Tue · Jul 14</option>
+      <option value="7/15" selected>Wed · Jul 15</option>
+      <option value="7/16">Thu · Jul 16*</option>
+    </select>
+    <span id="dstat" style="font-size:13px;color:var(--sec);"></span>
+  </div>
+  <div class="grid charts">
+    <div><div class="lbl" style="margin-top:0;">Voice — Inbound Volume by Hour</div><div class="cbox"><canvas id="cv"></canvas></div></div>
+    <div>
+      <div class="lbl" style="margin-top:0;">Email — Received vs. Resolved by Hour</div>
+      <div class="leg"><span><span class="sw" style="background:#2a78d6;"></span>Received</span><span><span class="sw" style="background:#1baf7a;"></span>Resolved</span></div>
+      <div class="cbox"><canvas id="ce"></canvas></div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script>
+(function(){
+  var mut='#898781',grid='rgba(137,135,129,0.2)';
+  var bx={grid:{display:false},ticks:{color:mut,font:{size:11}}};
+  var days7=['Thu 9','Fri 10','Sat 11','Sun 12','Mon 13','Tue 14','Wed 15','Thu 16*'];
+  var wkBlue=['#2a78d6','#2a78d6','#2a78d6','#2a78d6','#2a78d6','#2a78d6','#2a78d6','#9a6a00'];
+  new Chart(document.getElementById('c1'),{type:'bar',data:{labels:days7,datasets:[{label:'Inbound volume',data:[1332,1248,610,0,0,0,0,0],backgroundColor:wkBlue,borderRadius:4,maxBarThickness:22}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:bx,y:{grid:{color:grid},ticks:{color:mut,font:{size:11}}}}}});
+  new Chart(document.getElementById('c2'),{type:'line',data:{labels:days7,datasets:[{label:'SLA %',data:[76,74,94,0,0,0,0,0],borderColor:'#2a78d6',backgroundColor:'#2a78d6',borderWidth:2,tension:0.25,pointRadius:3,pointBackgroundColor:wkBlue,pointBorderColor:wkBlue},{label:'Target 80%',data:[80,80,80,80,80,80,80,80],borderColor:'#e34948',borderWidth:1.5,borderDash:[6,4],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:bx,y:{min:0,max:110,grid:{color:grid},ticks:{stepSize:20,color:mut,font:{size:11},callback:function(v){return v>100?'':v+'%';}}}}}});
+  var Z=function(){return [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];};
+  var VOFF={'7/9':[2,1,1,1,1,7,17,48,92,105,116,124,111,118,125,110,107,67,56,48,43,16,10,6],'7/10':[4,2,6,2,2,5,22,45,60,109,127,103,99,129,108,84,106,66,57,45,29,14,18,6],'7/11':[2,2,2,3,1,7,9,28,34,50,60,63,55,50,45,37,37,40,14,25,16,14,12,4],'7/12':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/13':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/14':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/15':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/16':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]};
+  var EREC={'7/9':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/10':[0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/11':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/12':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/13':[0,0,0,0,0,0,0,0,1,0,3,1,0,0,0,1,0,1,0,0,0,0,0,0],'7/14':[0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/15':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/16':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]};
+  var ECLO={'7/9':[11,10,4,9,14,28,36,29,31,18,31,34,37,41,29,25,12,26,33,36,15,20,22,10],'7/10':[9,14,7,22,28,19,22,30,29,25,24,18,30,40,21,20,27,28,23,19,11,14,13,17],'7/11':[6,14,12,13,15,9,13,14,17,24,20,28,41,27,19,19,15,15,17,15,14,10,6,9],'7/12':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/13':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/14':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/15':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],'7/16':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]};
+  var hrs=[]; for(var h=0;h<24;h++){hrs.push((h%12===0?12:h%12)+(h<12?'a':'p'));}
+  var sum=function(a){return a.reduce(function(x,y){return x+y;},0);};
+  var xh={grid:{display:false},ticks:{color:mut,font:{size:10},maxRotation:0,autoSkip:false,callback:function(v,i){return i%3===0?hrs[i]:'';}}};
+  var yh={grid:{color:grid},ticks:{color:mut,font:{size:11},precision:0}};
+  var cv=new Chart(document.getElementById('cv'),{type:'bar',data:{labels:hrs,datasets:[{label:'Inbound volume',data:VOFF['7/15']||Z(),backgroundColor:'#2a78d6',borderRadius:3,maxBarThickness:16}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:function(t){return t[0].label+' CT';}}}},scales:{x:xh,y:yh}}});
+  var ce=new Chart(document.getElementById('ce'),{type:'bar',data:{labels:hrs,datasets:[{label:'Received',data:EREC['7/15']||Z(),backgroundColor:'#2a78d6',borderRadius:3,maxBarThickness:12},{label:'Resolved',data:ECLO['7/15']||Z(),backgroundColor:'#1baf7a',borderRadius:3,maxBarThickness:12}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false},tooltip:{callbacks:{title:function(t){return t[0].label+' CT';}}}},scales:{x:xh,y:yh}}});
+  function render(d){var vo=VOFF[d]||Z(),er=EREC[d]||Z(),ec=ECLO[d]||Z();cv.data.datasets[0].data=vo;cv.update();ce.data.datasets[0].data=er;ce.data.datasets[1].data=ec;ce.update();document.getElementById('dstat').textContent='Voice inbound '+sum(vo)+' · Email received '+sum(er)+' / resolved '+sum(ec);}
+  var daySel=document.getElementById('daySel');
+  daySel.addEventListener('change',function(){render(daySel.value);});
+  render(daySel.value);
+})();
+</script>
+</body>
+</html>
