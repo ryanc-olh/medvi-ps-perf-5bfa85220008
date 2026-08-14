@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-08-14T01:39:45-05:00",
- "generated_at_ct": "1:39am",
+ "generated_at": "2026-08-14T09:23:29-05:00",
+ "generated_at_ct": "9:23am",
  "window": {
   "start": "2026-08-07",
   "end": "2026-08-13"
@@ -115,16 +115,16 @@
    }
   },
   "today": {
-   "offered": 6,
-   "answered": 8,
-   "offered_live": 6,
-   "answered_live": 8,
-   "answered_in_sl": 8,
-   "short_abandoned": 0,
-   "sl_den": 6,
-   "sl": 133.33,
-   "asa_s": 7.3,
-   "aht_s": 356.7
+   "offered": 291,
+   "answered": 287,
+   "offered_live": 291,
+   "answered_live": 287,
+   "answered_in_sl": 257,
+   "short_abandoned": 1,
+   "sl_den": 290,
+   "sl": 88.62,
+   "asa_s": 8.7,
+   "aht_s": 532.9
   }
  },
  "chat_informational": {
@@ -228,7 +228,20 @@
     "hours_ct": "06:00-18:59"
    }
   },
-  "today": null,
+  "today": {
+   "offered": 0,
+   "answered": 265,
+   "offered_live": 274,
+   "answered_live": 265,
+   "answered_in_sl": 131,
+   "short_abandoned": 2,
+   "sl_den": 272,
+   "sl_secs": 30,
+   "sl": 48.16,
+   "asa_s": 151.8,
+   "aht_s": null,
+   "hours_ct": "06:00-18:59"
+  },
   "hours_ct": "06:00-18:59 CT",
   "caveat": "business-hours window only; does NOT exclude chats answered the next day, so SL/ASA here are not comparable to the dashboard's Zoho-sourced chat figures"
  },
@@ -1770,85 +1783,85 @@
     4
    ],
    [
+    3,
+    2,
+    21688,
+    3,
+    2,
+    0,
+    2
+   ],
+   [
     2,
     2,
-    14459,
+    15171,
     2,
     2,
     0,
     2
    ],
    [
+    2,
+    2,
+    14761,
+    2,
+    2,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    2
    ],
    [
+    1,
+    1,
+    7111,
+    1,
+    1,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    1
    ],
    [
+    9,
+    9,
+    57443,
+    9,
+    11,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    11
    ],
    [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    27,
+    24,
+    463239,
+    27,
+    34,
+    1,
+    34
    ],
    [
+    69,
+    59,
+    538232,
+    69,
+    64,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    64
    ],
    [
+    111,
+    101,
+    847473,
+    111,
+    112,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    112
    ],
    [
+    57,
+    51,
+    481903,
+    57,
+    59,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    59
    ],
    [
     0,
