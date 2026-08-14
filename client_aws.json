@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-08-14T17:33:22-05:00",
- "generated_at_ct": "5:33pm",
+ "generated_at": "2026-08-14T21:26:17-05:00",
+ "generated_at_ct": "9:26pm",
  "window": {
   "start": "2026-08-07",
   "end": "2026-08-13"
@@ -122,17 +122,17 @@
    }
   },
   "today": {
-   "offered": 1379,
-   "answered": 1432,
-   "offered_live": 1379,
-   "answered_live": 1432,
-   "answered_in_sl": 1190,
-   "short_abandoned": 5,
-   "sl_den": 1379,
-   "sl": 86.66,
-   "sl_answered_only": 86.61,
-   "asa_s": 17.3,
-   "aht_s": 584.0
+   "offered": 1576,
+   "answered": 1660,
+   "offered_live": 1576,
+   "answered_live": 1660,
+   "answered_in_sl": 1374,
+   "short_abandoned": 6,
+   "sl_den": 1576,
+   "sl": 87.56,
+   "sl_answered_only": 87.52,
+   "asa_s": 18.5,
+   "aht_s": 569.6
   }
  },
  "chat_informational": {
@@ -238,15 +238,15 @@
   },
   "today": {
    "offered": 0,
-   "answered": 1130,
-   "offered_live": 1139,
-   "answered_live": 1130,
-   "answered_in_sl": 952,
+   "answered": 1229,
+   "offered_live": 1238,
+   "answered_live": 1229,
+   "answered_in_sl": 1049,
    "short_abandoned": 2,
-   "sl_den": 1137,
+   "sl_den": 1236,
    "sl_secs": 30,
-   "sl": 83.73,
-   "asa_s": 44.1,
+   "sl": 84.87,
+   "asa_s": 41.1,
    "aht_s": null,
    "hours_ct": "06:00-18:59"
   },
@@ -1755,7 +1755,7 @@
    [
     19,
     18,
-    137626,
+    137627,
     19,
     18,
     0,
@@ -1935,49 +1935,49 @@
     124
    ],
    [
-    52,
-    46,
-    462398,
-    52,
-    49,
+    93,
+    85,
+    711229,
+    93,
+    80,
     0,
-    49
+    80
    ],
    [
+    85,
+    69,
+    788186,
+    85,
+    68,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    68
    ],
    [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    57,
+    32,
+    4590113,
+    57,
+    59,
+    1,
+    59
    ],
    [
+    40,
+    39,
+    328786,
+    40,
+    34,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    34
    ],
    [
+    5,
+    5,
+    35023,
+    5,
+    5,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    5
    ],
    [
     0,
