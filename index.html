@@ -47,7 +47,7 @@
 <body>
 <div class="wrap">
   <h1>Medvi — Patient Support Performance</h1>
-  <div class="sub">Aug 8–14, 2026 · Voice · Email · Chat · Medvi · Central Time · <b>page rebuilt 5:31am CDT</b></div>
+  <div class="sub">Aug 8–14, 2026 · Voice · Email · Chat · Medvi · Central Time · <b>page rebuilt 9:48am CDT</b></div>
   
   <div id="pane-sum">
 
@@ -79,14 +79,14 @@
   <table>
     <thead><tr><th>Day</th><th>Inbound Volume</th><th>Answered</th><th>% Answered ≤30s</th><th>Avg Speed of Answer</th><th>Abandonment</th></tr></thead>
     <tbody>
-      <tr><td>Sat 8/8</td><td>725</td><td>713</td><td class="grn">94%</td><td>0.3m</td><td>0%</td></tr>
-      <tr><td>Sun 8/9</td><td>586</td><td>578</td><td class="grn">98%</td><td>0.3m</td><td>0%</td></tr>
-      <tr><td>Mon 8/10</td><td>1,823</td><td>1,802</td><td class="grn">88%</td><td>0.4m</td><td>1%</td></tr>
-      <tr><td>Tue 8/11</td><td>1,708</td><td>1,683</td><td class="grn">86%</td><td>0.4m</td><td>1%</td></tr>
-      <tr><td>Wed 8/12</td><td>1,752</td><td>1,719</td><td class="grn">85%</td><td>0.9m</td><td>1%</td></tr>
-      <tr><td>Thu 8/13</td><td>1,737</td><td>1,721</td><td class="grn">94%</td><td>0.3m</td><td>0%</td></tr>
-      <tr><td>Fri 8/14</td><td>1,770</td><td>1,753</td><td class="grn">87%</td><td>0.4m</td><td>0%</td></tr>
-      <tr class="tot"><td>Aug 8–14</td><td>10,101</td><td>9,969</td><td class="grn">89%</td><td>0.5m</td><td>1%</td></tr>
+      <tr><td>Sat 8/8</td><td>721</td><td>710</td><td class="grn">94%</td><td>0.3m</td><td>0%</td></tr>
+      <tr><td>Sun 8/9</td><td>584</td><td>576</td><td class="grn">98%</td><td>0.3m</td><td>0%</td></tr>
+      <tr><td>Mon 8/10</td><td>1,820</td><td>1,798</td><td class="grn">88%</td><td>0.4m</td><td>1%</td></tr>
+      <tr><td>Tue 8/11</td><td>1,708</td><td>1,682</td><td class="grn">86%</td><td>0.4m</td><td>1%</td></tr>
+      <tr><td>Wed 8/12</td><td>1,746</td><td>1,713</td><td class="grn">85%</td><td>0.9m</td><td>1%</td></tr>
+      <tr><td>Thu 8/13</td><td>1,735</td><td>1,719</td><td class="grn">94%</td><td>0.3m</td><td>0%</td></tr>
+      <tr><td>Fri 8/14</td><td>1,771</td><td>1,754</td><td class="grn">87%</td><td>0.4m</td><td>0%</td></tr>
+      <tr class="tot"><td>Aug 8–14</td><td>10,085</td><td>9,952</td><td class="grn">89%</td><td>0.5m</td><td>1%</td></tr>
       <tr class="amb" id="vTodayRow"><td>Sat 8/15*</td><td>9</td><td>9</td><td>89%</td><td>0.3m</td><td>—</td></tr>
     </tbody>
   </table>
@@ -212,10 +212,10 @@
   var bx={grid:{display:false},ticks:{color:mut,font:{size:11}}};
   var days7=['Sat 8','Sun 9','Mon 10','Tue 11','Wed 12','Thu 13','Fri 14','Sat 15*'];
   var wkBlue=['#2a78d6','#2a78d6','#2a78d6','#2a78d6','#2a78d6','#2a78d6','#2a78d6','#9a6a00'];
-  window.C1=new Chart(document.getElementById('c1'),{type:'bar',data:{labels:days7,datasets:[{label:'Inbound volume',data:[725,586,1823,1708,1752,1737,1770,9],backgroundColor:wkBlue,borderRadius:4,maxBarThickness:22}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:bx,y:{grid:{color:grid},ticks:{color:mut,font:{size:11}}}}}});
+  window.C1=new Chart(document.getElementById('c1'),{type:'bar',data:{labels:days7,datasets:[{label:'Inbound volume',data:[721,584,1820,1708,1746,1735,1771,9],backgroundColor:wkBlue,borderRadius:4,maxBarThickness:22}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:bx,y:{grid:{color:grid},ticks:{color:mut,font:{size:11}}}}}});
   window.C2=new Chart(document.getElementById('c2'),{type:'line',data:{labels:days7,datasets:[{label:'SLA %',data:[94,98,88,86,85,94,87,89],borderColor:'#2a78d6',backgroundColor:'#2a78d6',borderWidth:2,tension:0.25,pointRadius:3,pointBackgroundColor:wkBlue,pointBorderColor:wkBlue},{label:'Target 80%',data:[80,80,80,80,80,80,80,80],borderColor:'#e34948',borderWidth:1.5,borderDash:[6,4],pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{display:false}},scales:{x:bx,y:{min:0,max:110,grid:{color:grid},ticks:{stepSize:20,color:mut,font:{size:11},callback:function(v){return v>100?'':v+'%';}}}}}});
   var Z=function(){return [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0];};
-  var VOFF={'8/8':[2,0,1,1,1,5,13,27,48,65,47,98,69,50,56,69,53,30,33,22,16,8,7,4],'8/9':[5,0,2,0,5,4,11,14,37,48,38,53,50,49,41,47,46,35,34,15,22,14,15,1],'8/10':[4,2,4,2,4,2,19,55,109,134,175,175,161,160,160,163,150,108,74,72,40,28,18,4],'8/11':[3,3,2,4,3,13,15,53,123,146,163,158,155,130,135,157,123,99,92,57,35,17,11,11],'8/12':[4,3,0,1,5,8,20,69,114,157,155,159,153,146,149,107,121,143,91,61,39,23,16,8],'8/13':[4,2,4,6,2,10,24,64,112,119,157,192,148,141,168,128,147,96,84,55,27,22,11,14],'8/14':[6,1,3,2,1,13,37,68,128,165,176,141,156,149,145,141,139,92,78,64,36,17,8,4],'8/15':[7,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]};
+  var VOFF={'8/8':[2,0,1,1,1,5,13,27,48,65,47,95,69,50,56,68,53,30,33,22,16,8,7,4],'8/9':[5,0,2,0,5,4,11,14,37,48,38,53,50,49,41,46,45,35,34,15,22,14,15,1],'8/10':[4,2,4,2,4,2,19,55,109,134,175,175,161,160,160,164,149,105,74,72,40,28,18,4],'8/11':[3,3,2,4,3,13,15,53,123,146,163,158,155,131,135,157,123,99,91,57,35,17,11,11],'8/12':[4,3,0,1,5,8,20,69,114,157,155,159,153,146,149,107,121,142,89,60,37,23,16,8],'8/13':[4,2,4,6,2,10,23,64,112,119,157,192,148,141,168,128,147,96,84,55,26,22,11,14],'8/14':[6,1,3,2,1,13,37,68,129,165,176,141,156,149,145,141,139,92,78,64,36,17,8,4],'8/15':[7,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]};
   var EREC={'8/8':[2,2,5,5,9,16,16,25,33,21,32,18,20,21,29,12,18,15,9,12,7,8,5,4],'8/9':[5,3,2,3,8,18,17,19,24,29,20,31,14,19,21,18,16,14,13,16,16,10,4,3],'8/10':[2,3,5,13,17,25,23,35,42,37,43,44,49,32,36,32,37,26,27,16,14,10,4,3],'8/11':[3,4,3,12,14,29,30,43,41,33,35,39,33,33,31,25,29,35,21,26,6,6,6,4],'8/12':[3,3,4,11,20,26,35,40,44,33,37,37,33,36,39,37,32,25,21,17,12,9,3,3],'8/13':[3,6,4,9,14,22,43,43,31,41,54,31,46,31,23,25,24,26,26,17,5,8,4,1],'8/14':[5,3,5,11,19,21,45,38,43,27,40,37,43,38,25,0,0,0,0,0,0,0,0,0],'8/15':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]};
   var ECLO={'8/8':[5,5,3,8,6,16,14,23,17,21,20,25,32,29,19,15,33,24,14,20,7,5,8,3],'8/9':[6,0,5,4,6,17,15,18,30,20,27,18,30,20,16,26,21,20,13,14,12,3,12,6],'8/10':[6,2,3,9,13,27,23,28,35,32,43,44,49,37,32,39,38,23,34,18,14,11,9,3],'8/11':[8,3,7,13,16,16,22,36,32,43,39,61,39,38,40,24,22,23,37,23,24,17,20,9],'8/12':[9,5,6,3,14,17,31,42,32,49,40,45,41,47,34,27,32,38,34,27,22,15,11,7],'8/13':[3,9,9,7,11,20,30,45,39,32,41,43,34,37,49,28,32,24,28,27,21,27,12,7],'8/14':[9,6,4,14,17,31,48,52,43,41,43,43,52,54,48,0,0,0,0,0,0,0,0,0],'8/15':[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]};
   var hrs=[]; for(var h=0;h<24;h++){hrs.push((h%12===0?12:h%12)+(h<12?'a':'p'));}
