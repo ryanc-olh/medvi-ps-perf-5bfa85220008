@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-08-17T13:34:34-05:00",
- "generated_at_ct": "1:34pm",
+ "generated_at": "2026-08-17T17:36:09-05:00",
+ "generated_at_ct": "5:36pm",
  "window": {
   "start": "2026-08-10",
   "end": "2026-08-16"
@@ -122,17 +122,17 @@
    }
   },
   "today": {
-   "offered": 934,
-   "answered": 949,
-   "offered_live": 934,
-   "answered_live": 949,
-   "answered_in_sl": 757,
-   "short_abandoned": 3,
-   "sl_den": 934,
-   "sl": 81.37,
-   "sl_answered_only": 81.31,
-   "asa_s": 21.7,
-   "aht_s": 560.6
+   "offered": 1496,
+   "answered": 1544,
+   "offered_live": 1496,
+   "answered_live": 1544,
+   "answered_in_sl": 1294,
+   "short_abandoned": 7,
+   "sl_den": 1496,
+   "sl": 86.97,
+   "sl_answered_only": 86.9,
+   "asa_s": 16.6,
+   "aht_s": 557.9
   }
  },
  "chat_informational": {
@@ -238,15 +238,15 @@
   },
   "today": {
    "offered": 0,
-   "answered": 839,
-   "offered_live": 846,
-   "answered_live": 839,
-   "answered_in_sl": 524,
+   "answered": 1338,
+   "offered_live": 1348,
+   "answered_live": 1338,
+   "answered_in_sl": 999,
    "short_abandoned": 3,
-   "sl_den": 843,
+   "sl_den": 1345,
    "sl_secs": 30,
-   "sl": 62.16,
-   "asa_s": 60.0,
+   "sl": 74.28,
+   "asa_s": 43.0,
    "aht_s": null,
    "hours_ct": "06:00-18:59"
   },
@@ -1899,49 +1899,49 @@
     146
    ],
    [
-    78,
-    71,
-    752047,
-    78,
-    80,
+    134,
+    126,
+    1070214,
+    134,
+    138,
     0,
-    80
+    138
    ],
    [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    190,
+    166,
+    2102772,
+    190,
+    184,
+    2,
+    184
    ],
    [
+    161,
+    149,
+    886398,
+    161,
+    142,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    142
    ],
    [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    140,
+    123,
+    1185555,
+    140,
+    138,
+    2,
+    138
    ],
    [
+    49,
+    45,
+    495859,
+    49,
+    40,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    40
    ],
    [
     0,
@@ -1998,6 +1998,11 @@
     0
    ]
   ]
+ },
+ "email_live": {
+  "rec": 361,
+  "clo": 5,
+  "asof_ct": "5:33pm"
  },
  "errors": [],
  "ok": true
