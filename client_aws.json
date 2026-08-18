@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-08-18T01:28:46-05:00",
- "generated_at_ct": "1:28am",
+ "generated_at": "2026-08-18T05:28:08-05:00",
+ "generated_at_ct": "5:28am",
  "window": {
   "start": "2026-08-11",
   "end": "2026-08-17"
@@ -122,17 +122,17 @@
    }
   },
   "today": {
-   "offered": 13,
-   "answered": 13,
-   "offered_live": 13,
-   "answered_live": 13,
-   "answered_in_sl": 9,
+   "offered": 21,
+   "answered": 24,
+   "offered_live": 21,
+   "answered_live": 24,
+   "answered_in_sl": 18,
    "short_abandoned": 0,
-   "sl_den": 13,
-   "sl": 69.23,
-   "sl_answered_only": 69.23,
-   "asa_s": 17.0,
-   "aht_s": 567.0
+   "sl_den": 21,
+   "sl": 85.71,
+   "sl_answered_only": 85.71,
+   "asa_s": 16.1,
+   "aht_s": 520.6
   }
  },
  "chat_informational": {
@@ -1778,10 +1778,10 @@
     7
    ],
    [
-    4,
-    3,
-    77086,
-    4,
+    7,
+    5,
+    153687,
+    7,
     6,
     0,
     6
@@ -1796,31 +1796,31 @@
     0
    ],
    [
+    3,
+    3,
+    22268,
+    3,
+    3,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    3
    ],
    [
+    2,
+    2,
+    14972,
+    2,
+    2,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    2
    ],
    [
+    3,
+    2,
+    54545,
+    3,
+    3,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    3
    ],
    [
     0,
@@ -1985,6 +1985,11 @@
     0
    ]
   ]
+ },
+ "email_live": {
+  "rec": 20,
+  "clo": 1,
+  "asof_ct": "5:25am"
  },
  "errors": [],
  "ok": true
