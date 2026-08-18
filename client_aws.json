@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-08-18T17:17:24-05:00",
- "generated_at_ct": "5:17pm",
+ "generated_at": "2026-08-18T17:24:14-05:00",
+ "generated_at_ct": "5:24pm",
  "window": {
   "start": "2026-08-11",
   "end": "2026-08-17"
@@ -213,17 +213,17 @@
    }
   },
   "today": {
-   "offered": 1452,
-   "answered": 1505,
-   "offered_live": 1452,
-   "answered_live": 1505,
-   "answered_in_sl": 1186,
+   "offered": 1465,
+   "answered": 1520,
+   "offered_live": 1465,
+   "answered_live": 1520,
+   "answered_in_sl": 1190,
    "short_abandoned": 6,
-   "sl_den": 1452,
-   "sl": 82.09,
-   "sl_answered_only": 82.02,
-   "asa_s": 18.6,
-   "aht_s": 555.3
+   "sl_den": 1465,
+   "sl": 81.64,
+   "sl_answered_only": 81.56,
+   "asa_s": 19.2,
+   "aht_s": 555.5
   }
  },
  "chat_informational": {
@@ -329,15 +329,15 @@
   },
   "today": {
    "offered": 0,
-   "answered": 1362,
-   "offered_live": 1433,
-   "answered_live": 1362,
-   "answered_in_sl": 624,
+   "answered": 1372,
+   "offered_live": 1443,
+   "answered_live": 1372,
+   "answered_in_sl": 628,
    "short_abandoned": 21,
-   "sl_den": 1412,
+   "sl_den": 1422,
    "sl_secs": 30,
-   "sl": 44.19,
-   "asa_s": 254.1,
+   "sl": 44.16,
+   "asa_s": 252.6,
    "aht_s": null,
    "hours_ct": "06:00-18:59"
   },
@@ -2026,13 +2026,13 @@
     123
    ],
    [
-    30,
-    25,
-    301598,
-    30,
-    33,
+    45,
+    29,
+    1561350,
+    45,
+    46,
     0,
-    33
+    46
    ],
    [
     0,
@@ -2091,9 +2091,9 @@
   ]
  },
  "email_live": {
-  "rec": 565,
-  "clo": 25,
-  "asof_ct": "5:12pm"
+  "rec": 573,
+  "clo": 26,
+  "asof_ct": "5:19pm"
  },
  "errors": [],
  "ok": true
