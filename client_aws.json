@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-08-20T13:43:30-05:00",
- "generated_at_ct": "1:43pm",
+ "generated_at": "2026-08-20T17:45:25-05:00",
+ "generated_at_ct": "5:45pm",
  "window": {
   "start": "2026-08-13",
   "end": "2026-08-19"
@@ -213,17 +213,17 @@
    }
   },
   "today": {
-   "offered": 964,
-   "answered": 969,
-   "offered_live": 964,
-   "answered_live": 969,
-   "answered_in_sl": 681,
+   "offered": 1448,
+   "answered": 1486,
+   "offered_live": 1448,
+   "answered_live": 1486,
+   "answered_in_sl": 1133,
    "short_abandoned": 2,
-   "sl_den": 964,
-   "sl": 70.85,
-   "sl_answered_only": 70.79,
-   "asa_s": 37.8,
-   "aht_s": 577.1
+   "sl_den": 1448,
+   "sl": 78.38,
+   "sl_answered_only": 78.35,
+   "asa_s": 28.7,
+   "aht_s": 582.6
   }
  },
  "chat_informational": {
@@ -329,15 +329,15 @@
   },
   "today": {
    "offered": 0,
-   "answered": 854,
-   "offered_live": 854,
-   "answered_live": 854,
-   "answered_in_sl": 777,
+   "answered": 1269,
+   "offered_live": 1269,
+   "answered_live": 1269,
+   "answered_in_sl": 1155,
    "short_abandoned": 0,
-   "sl_den": 854,
+   "sl_den": 1269,
    "sl_secs": 30,
-   "sl": 90.98,
-   "asa_s": 12.7,
+   "sl": 91.02,
+   "asa_s": 13.3,
    "aht_s": null,
    "hours_ct": "06:00-18:59"
   },
@@ -1990,49 +1990,49 @@
     147
    ],
    [
-    93,
+    134,
+    114,
+    2028135,
+    134,
+    138,
+    0,
+    138
+   ],
+   [
+    138,
+    113,
+    2336608,
+    138,
+    131,
+    0,
+    131
+   ],
+   [
+    143,
+    131,
+    1063813,
+    143,
+    142,
+    0,
+    142
+   ],
+   [
+    111,
+    100,
+    915516,
+    111,
+    98,
+    0,
+    98
+   ],
+   [
+    84,
+    78,
+    571402,
+    85,
     83,
-    1000653,
-    93,
-    108,
     0,
-    108
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    83
    ],
    [
     0,
