@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-08-28T17:47:10-05:00",
- "generated_at_ct": "5:47pm",
+ "generated_at": "2026-08-28T21:24:53-05:00",
+ "generated_at_ct": "9:24pm",
  "window": {
   "start": "2026-08-21",
   "end": "2026-08-27"
@@ -213,17 +213,17 @@
    }
   },
   "today": {
-   "offered": 1213,
-   "answered": 1215,
-   "offered_live": 1213,
-   "answered_live": 1215,
-   "answered_in_sl": 831,
+   "offered": 1333,
+   "answered": 1351,
+   "offered_live": 1333,
+   "answered_live": 1351,
+   "answered_in_sl": 955,
    "short_abandoned": 9,
-   "sl_den": 1213,
-   "sl": 69.25,
-   "sl_answered_only": 69.02,
-   "asa_s": 88.2,
-   "aht_s": 694.9
+   "sl_den": 1333,
+   "sl": 72.32,
+   "sl_answered_only": 72.13,
+   "asa_s": 80.3,
+   "aht_s": 695.2
   }
  },
  "chat_informational": {
@@ -329,15 +329,15 @@
   },
   "today": {
    "offered": 0,
-   "answered": 889,
-   "offered_live": 891,
-   "answered_live": 889,
-   "answered_in_sl": 857,
+   "answered": 969,
+   "offered_live": 971,
+   "answered_live": 969,
+   "answered_in_sl": 917,
    "short_abandoned": 0,
-   "sl_den": 891,
+   "sl_den": 971,
    "sl_secs": 30,
-   "sl": 96.18,
-   "asa_s": 13.5,
+   "sl": 94.44,
+   "asa_s": 17.2,
    "aht_s": null,
    "hours_ct": "06:00-18:59"
   },
@@ -2026,49 +2026,49 @@
     84
    ],
    [
-    63,
-    61,
-    412694,
-    63,
+    79,
+    74,
+    532830,
+    79,
+    67,
+    0,
+    67
+   ],
+   [
+    50,
     48,
+    338884,
+    50,
+    41,
     0,
-    48
+    41
    ],
    [
+    31,
+    28,
+    234722,
+    31,
+    28,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    28
    ],
    [
+    30,
+    26,
+    351835,
+    30,
+    26,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    26
    ],
    [
+    8,
+    8,
+    56143,
+    8,
+    6,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-   ],
-   [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    6
    ],
    [
     0,
@@ -2091,9 +2091,9 @@
   ]
  },
  "email_live": {
-  "rec": 434,
-  "clo": 381,
-  "asof_ct": "5:37pm"
+  "rec": 517,
+  "clo": 428,
+  "asof_ct": "9:19pm"
  },
  "errors": [],
  "ok": true
