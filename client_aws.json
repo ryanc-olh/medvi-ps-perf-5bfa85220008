@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-09-05T05:26:27-05:00",
- "generated_at_ct": "5:26am",
+ "generated_at": "2026-09-05T09:28:25-05:00",
+ "generated_at_ct": "9:28am",
  "window": {
   "start": "2026-08-29",
   "end": "2026-09-04"
@@ -213,17 +213,17 @@
    }
   },
   "today": {
-   "offered": 10,
-   "answered": 14,
-   "offered_live": 10,
-   "answered_live": 14,
-   "answered_in_sl": 12,
+   "offered": 110,
+   "answered": 101,
+   "offered_live": 110,
+   "answered_live": 101,
+   "answered_in_sl": 94,
    "short_abandoned": 0,
-   "sl_den": 10,
-   "sl": 120.0,
-   "sl_answered_only": 120.0,
-   "asa_s": 7.4,
-   "aht_s": 558.7
+   "sl_den": 110,
+   "sl": 85.45,
+   "sl_answered_only": 85.45,
+   "asa_s": 6.9,
+   "aht_s": 524.5
   }
  },
  "chat_informational": {
@@ -327,7 +327,20 @@
     "hours_ct": "06:00-18:59"
    }
   },
-  "today": null,
+  "today": {
+   "offered": 0,
+   "answered": 135,
+   "offered_live": 135,
+   "answered_live": 135,
+   "answered_in_sl": 132,
+   "short_abandoned": 0,
+   "sl_den": 135,
+   "sl_secs": 30,
+   "sl": 97.78,
+   "asa_s": 9.2,
+   "aht_s": null,
+   "hours_ct": "06:00-18:59"
+  },
   "hours_ct": "06:00-18:59 CT",
   "caveat": "business-hours window only; does NOT exclude chats answered the next day, so SL/ASA here are not comparable to the dashboard's Zoho-sourced chat figures"
  },
@@ -1914,40 +1927,40 @@
     0
    ],
    [
+    8,
+    7,
+    59442,
+    8,
+    9,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    9
    ],
    [
+    17,
+    17,
+    123748,
+    17,
+    19,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    19
    ],
    [
+    40,
+    38,
+    271729,
+    40,
+    43,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    43
    ],
    [
+    22,
+    20,
+    140072,
+    22,
+    29,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    29
    ],
    [
     0,
@@ -2078,9 +2091,9 @@
   ]
  },
  "email_live": {
-  "rec": 19,
-  "clo": 33,
-  "asof_ct": "5:25am"
+  "rec": 105,
+  "clo": 78,
+  "asof_ct": "9:21am"
  },
  "errors": [],
  "ok": true
