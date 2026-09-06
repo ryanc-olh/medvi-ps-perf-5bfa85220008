@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-09-06T05:26:47-05:00",
- "generated_at_ct": "5:26am",
+ "generated_at": "2026-09-06T09:21:39-05:00",
+ "generated_at_ct": "9:21am",
  "window": {
   "start": "2026-08-30",
   "end": "2026-09-05"
@@ -213,17 +213,17 @@
    }
   },
   "today": {
-   "offered": 6,
-   "answered": 6,
-   "offered_live": 6,
-   "answered_live": 6,
-   "answered_in_sl": 6,
+   "offered": 78,
+   "answered": 85,
+   "offered_live": 78,
+   "answered_live": 85,
+   "answered_in_sl": 68,
    "short_abandoned": 0,
-   "sl_den": 6,
-   "sl": 100.0,
-   "sl_answered_only": 100.0,
-   "asa_s": 7.2,
-   "aht_s": 941.9
+   "sl_den": 78,
+   "sl": 87.18,
+   "sl_answered_only": 87.18,
+   "asa_s": 7.0,
+   "aht_s": 546.3
   }
  },
  "chat_informational": {
@@ -327,7 +327,20 @@
     "hours_ct": "06:00-18:59"
    }
   },
-  "today": null,
+  "today": {
+   "offered": 0,
+   "answered": 108,
+   "offered_live": 108,
+   "answered_live": 108,
+   "answered_in_sl": 107,
+   "short_abandoned": 0,
+   "sl_den": 108,
+   "sl_secs": 30,
+   "sl": 99.07,
+   "asa_s": 6.1,
+   "aht_s": null,
+   "hours_ct": "06:00-18:59"
+  },
   "hours_ct": "06:00-18:59 CT",
   "caveat": "business-hours window only; does NOT exclude chats answered the next day, so SL/ASA here are not comparable to the dashboard's Zoho-sourced chat figures"
  },
@@ -1905,49 +1918,49 @@
     1
    ],
    [
+    5,
+    4,
+    35591,
+    5,
+    4,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    4
    ],
    [
+    1,
+    1,
+    7113,
+    1,
+    2,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    2
    ],
    [
+    12,
+    11,
+    85826,
+    12,
+    16,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    16
    ],
    [
+    46,
+    33,
+    325171,
+    46,
+    33,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    33
    ],
    [
+    15,
+    13,
+    101394,
+    15,
+    17,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    17
    ],
    [
     0,
@@ -2078,9 +2091,9 @@
   ]
  },
  "email_live": {
-  "rec": 17,
-  "clo": 53,
-  "asof_ct": "5:23am"
+  "rec": 97,
+  "clo": 111,
+  "asof_ct": "9:12am"
  },
  "errors": [],
  "ok": true
