@@ -1,7 +1,7 @@
 {
  "client": "medvi",
- "generated_at": "2026-09-18T17:32:26-05:00",
- "generated_at_ct": "5:32pm",
+ "generated_at": "2026-09-18T21:27:24-05:00",
+ "generated_at_ct": "9:27pm",
  "window": {
   "start": "2026-09-11",
   "end": "2026-09-17"
@@ -213,17 +213,17 @@
    }
   },
   "today": {
-   "offered": 1153,
-   "answered": 2317,
-   "offered_live": 1153,
-   "answered_live": 2318,
-   "answered_in_sl": 1137,
+   "offered": 1296,
+   "answered": 2610,
+   "offered_live": 1296,
+   "answered_live": 2610,
+   "answered_in_sl": 1284,
    "short_abandoned": 5,
-   "sl_den": 1153,
-   "sl": 99.05,
-   "sl_answered_only": 99.04,
-   "asa_s": 6.3,
-   "aht_s": 345.6
+   "sl_den": 1296,
+   "sl": 99.46,
+   "sl_answered_only": 99.46,
+   "asa_s": 6.5,
+   "aht_s": 349.0
   }
  },
  "chat_informational": {
@@ -329,12 +329,12 @@
   },
   "today": {
    "offered": 0,
-   "answered": 737,
-   "offered_live": 737,
-   "answered_live": 737,
-   "answered_in_sl": 737,
+   "answered": 801,
+   "offered_live": 801,
+   "answered_live": 801,
+   "answered_in_sl": 801,
    "short_abandoned": 0,
-   "sl_den": 737,
+   "sl_den": 801,
    "sl_secs": 30,
    "sl": 100.0,
    "asa_s": 5.8,
@@ -2026,49 +2026,49 @@
     87
    ],
    [
-    88,
-    39,
-    552487,
-    88,
-    39,
+    197,
+    76,
+    1242920,
+    197,
+    77,
     0,
-    39
+    77
    ],
    [
+    119,
+    51,
+    775987,
+    119,
+    50,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    50
    ],
    [
+    28,
+    27,
+    210259,
+    28,
+    22,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    22
    ],
    [
+    28,
+    24,
+    416910,
+    28,
+    28,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    28
    ],
    [
+    8,
+    8,
+    56966,
+    8,
+    5,
     0,
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
+    5
    ],
    [
     0,
@@ -2091,9 +2091,9 @@
   ]
  },
  "email_live": {
-  "rec": 357,
-  "clo": 184,
-  "asof_ct": "5:30pm"
+  "rec": 427,
+  "clo": 282,
+  "asof_ct": "9:20pm"
  },
  "errors": [],
  "ok": true
